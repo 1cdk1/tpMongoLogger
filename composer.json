@@ -1,0 +1,21 @@
+{
+  "name": "cdk/tp-mongo-logger",
+  "description": "一个mongoLogger",
+  "type": "library",
+  "require": {
+    "topthink/think-orm": "2.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "TpMongoLogger\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "cdk123",
+      "email": "652769507@qq.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
